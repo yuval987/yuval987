@@ -7,6 +7,7 @@ metadata:
     apps.tanzu.vmware.com/has-tests: "false"
     apps.tanzu.vmware.com/auto-configure-actuators: "false"
     app.kubernetes.io/part-of: tanzu-java-web-app
+    app.testfulx: "true"
     workload-type: pre-built
 spec:
   image: docker.io/crccheck/hello-world:latest
