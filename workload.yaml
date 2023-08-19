@@ -11,7 +11,7 @@ metadata:
     app.testfulx: "true"
     workload-type: pre-built
 spec:
-  image: docker.io/crccheck/hello-world:latest
+  image: nginx
   build:
     env:
       - name: BP_JVM_VERSION
